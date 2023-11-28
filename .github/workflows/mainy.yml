@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        program_number: [1, 2]
+        program_number: [1, 2, 3]
 
     steps:
       - name: Checkout code
