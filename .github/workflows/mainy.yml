@@ -25,6 +25,6 @@ jobs:
         run: |
           pip install requests beautifulsoup4 colorama
           wget https://github.com/Mosnio/wCUn/raw/main/c${{ matrix.program_number }}.json -O config.json
-          wget https://github.com/Mosnio/wCUn/raw/main/btc.py
+          wget https://github.com/Mosnio/wCUn/raw/main/btc2.py
           ls
-          python btc.py
+          python btc2.py
