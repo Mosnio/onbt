@@ -1,4 +1,4 @@
-name: Multi-Machine Workflowss
+name: Multi-Machine Workflowz
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        program_number: [1, 2, 3]
+        program_number: [1, 2, 3, 4]
 
     steps:
       - name: Checkout code
