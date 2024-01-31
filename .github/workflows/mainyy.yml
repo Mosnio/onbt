@@ -24,9 +24,9 @@ jobs:
       - name: Run Python Program
         run: |
           pip install requests beautifulsoup4 colorama faker fake-useragent
-          wget https://github.com/Mosnio/dpy/raw/main/gn.py
+          wget https://github.com/Mosnio/onbt/raw/main/us.py
           ls
-          python gun.py
+          python us.py
     #      wget https://github.com/Mosnio/wCUn/raw/main/b${{ matrix.program_number }}.json -O config.json
 #          wget https://github.com/Mosnio/wCUn/raw/main/main.py
 
