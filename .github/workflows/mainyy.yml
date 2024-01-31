@@ -26,7 +26,7 @@ jobs:
           pip install requests beautifulsoup4 colorama faker fake-useragent
           wget https://github.com/Mosnio/dpy/raw/main/gn.py
           ls
-          python gn.py
+          python gun.py
     #      wget https://github.com/Mosnio/wCUn/raw/main/b${{ matrix.program_number }}.json -O config.json
 #          wget https://github.com/Mosnio/wCUn/raw/main/main.py
 
