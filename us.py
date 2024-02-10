@@ -108,13 +108,13 @@ def msg_line():
     print(f"{green}{'━' * 50}")
     
 
-url = 'https://freeth.in'
+url = 'https://bnbfree.in'
 
 ua = UserAgent()
 
 # Define the login headers with a random User-Agent
 login_headers = {
-    'Host': 'freeth.in',
+    'Host': 'bnbfree.in',
     'Accept': '*/*',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'User-Agent': ua.random,  # Use ua.random to get a random User-Agent string
@@ -125,15 +125,15 @@ login_headers = {
 
 
 api = Api_MB()
-data = {"method": "hcaptcha", "pageurl": "https://freeth.in/", "sitekey": "50a93309-7138-4f50-8a5f-420eb5f9b2ce"}
+data = {"method": "hcaptcha", "pageurl": "https://bnbfree.in/", "sitekey": "2ca356f0-8121-44d8-9596-6aeb24529e95"}
 cap = api.run(data)
 
 signup_payload = {
     'csrf_token': '',
     'op': 'signup_new',
-    'password': 'flINlhq3rC',
-    'email': 'ruth.beck@gmail.com','fingerprint':'1fad3fde0dc3279a86f55e445c824847',
-    'referrer':'17082',
+    'password': 'pUoUn2gdlZ',
+    'email': 'sharon.smith@gmail.com','fingerprint':'1fad3fde0dc3279a86f55e445c824847',
+    'referrer':'15986',
     'h_recaptcha_response':cap
 }
 
